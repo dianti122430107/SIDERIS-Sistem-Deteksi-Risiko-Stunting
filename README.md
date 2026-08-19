@@ -1,4 +1,5 @@
-# 🩺 SIDERIS
+
+# <img src="assets/logo_login.png" alt="Logo" width="250" style="vertical-align: middle;"/>
 
 ### Sistem Deteksi Risiko Stunting pada Balita Menggunakan Random Forest
 
@@ -80,7 +81,8 @@ Hasil Deteksi
 | **Application** | Python Desktop GUI (CustomTkinter) |
 
 ---
-## 📸 Application Preview (Galeri Antarmuka)
+
+## 📸 Application Preview
 
 <table width="100%">
   <tr>
@@ -150,8 +152,7 @@ SIDERIS/
 ├── data/
 ├── model_deployment
 ├── rfblsmote
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
@@ -169,18 +170,23 @@ SIDERIS/
 
 ---
 
-## 👩‍💻 Developer
-
-**Dianti Alia Rahmah**
-
-Institut Teknologi Sumatera (ITERA)
-
-Program Studi Teknik Biomedis
-
-> Developed as a final-year undergraduate thesis project.
-
----
-
 ## 📌 Disclaimer
 
 This project was developed for academic and research purposes. The original research dataset is not included in this repository to protect respondent privacy.
+
+---
+
+<div align="center">
+
+### **Dianti Alia Rahmah**
+*Program Studi Teknik Biomedis
+Intitut Teknologi Sumatera*
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dianti122430107)
+[![Status](https://img.shields.io/badge/Final%20Project%202026-teal?style=for-the-badge)](#)
+
+<p align="center">
+  > Developed as a final-year undergraduate thesis project.
+</p>
+
+</div>
