@@ -103,7 +103,7 @@ Hasil Deteksi
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](GUISIDERIS/dashboard.png)
 
 ### Input Data Balita
 
