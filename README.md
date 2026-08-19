@@ -1,6 +1,6 @@
 # 🩺 SIDERIS
 
-### Sistem Deteksi Dini Risiko Stunting pada Balita Menggunakan Random Forest
+### Sistem Deteksi Risiko Stunting pada Balita Menggunakan Random Forest
 
 **SIDERIS** merupakan aplikasi desktop berbasis Python yang dikembangkan sebagai bagian dari tugas akhir untuk membantu proses deteksi dini risiko stunting pada balita menggunakan algoritma **Random Forest**.
 
@@ -10,7 +10,7 @@
 
 SIDERIS dirancang untuk membantu tenaga kesehatan dan kader dalam melakukan deteksi dini risiko stunting berdasarkan beberapa faktor yang berkaitan dengan kondisi balita.
 
-Aplikasi mengintegrasikan proses **preprocessing data, perhitungan Z-score antropometri, dan klasifikasi Random Forest** dalam satu sistem.
+Aplikasi mengintegrasikan proses **perhitungan Z-score antropometri, dan klasifikasi Random Forest** dalam satu sistem.
 
 ---
 
@@ -70,52 +70,74 @@ Hasil Deteksi
 
 ## 🛠️ Tech Stack
 
-**Programming Language**
-
-* Python
-
-**Machine Learning**
-
-* Scikit-learn
-* Random Forest
-* Borderline-SMOTE
-
-**Data Processing**
-
-* Pandas
-* NumPy
-
-**Model Storage**
-
-* Joblib / Pickle
-
-**Database**
-
-* MySQL
-
-**Application**
-
-* Python Desktop GUI
+| Kategori | Teknologi / Pustaka |
+| :--- | :--- |
+| **Programming Language** | Python |
+| **Machine Learning** | Scikit-learn, Random Forest, Borderline-SMOTE |
+| **Data Processing** | Pandas, NumPy |
+| **Model Storage** | Joblib / Pickle |
+| **Database** | MySQL |
+| **Application** | Python Desktop GUI (CustomTkinter) |
 
 ---
+## 📸 Application Preview (Galeri Antarmuka)
 
-## 📸 Application Preview
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Login.png" alt="Login" width="100%"/>
+      <sub><b>1. Login</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Registrasi.png" alt="Registrasi" width="100%"/>
+      <sub><b>2. Registrasi</b></sub>
+    </td>
+  </tr>
 
-### Dashboard
+  <tr>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Informasi SIDERIS.png" alt="Informasi SIDERIS" width="100%"/>
+      <sub><b>3. Informasi SIDERIS</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Dashboard.png" alt="Dashboard" width="100%"/>
+      <sub><b>4. Dashboard</b></sub>
+    </td>
+  </tr>
 
-![Dashboard](GUI SIDERIS/Dashboard.png)
+  <tr>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Input Data Balita.png" alt="Input Data Balita" width="100%"/>
+      <sub><b>5. Input Data Balita</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Pemeriksaan.png" alt="Pemeriksaan" width="100%"/>
+      <sub><b>6. Pemeriksaan</b></sub>
+    </td>
+  </tr>
 
-### Input Data Balita
+  <tr>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Hasil Pemeriksaan.png" alt="Hasil Pemeriksaan" width="100%"/>
+      <sub><b>7. Hasil Pemeriksaan</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Riwayat Pemeriksaan.png" alt="Riwayat Pemeriksaan" width="100%"/>
+      <sub><b>8. Riwayat Pemeriksaan</b></sub>
+    </td>
+  </tr>
 
-![Input Data](screenshots/input_data.png)
-
-### Perhitungan Z-score
-
-![Z-score](screenshots/zscore.png)
-
-### Hasil Prediksi
-
-![Prediction](screenshots/prediction.png)
+  <tr>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Riwayat Detail.png" alt="Riwayat Detail" width="100%"/>
+      <sub><b>9. Riwayat Detail</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="GUI SIDERIS/Logout.png" alt="Logout" width="100%"/>
+      <sub><b>10. Logout</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -133,27 +155,17 @@ SIDERIS/
 ```
 
 ---
+## 📊 Parameter Deteksi & Penilaian
 
-## ⚙️ Installation
-
-Clone repository:
-
-```bash
-git clone https://github.com/username/SIDERIS.git
-cd SIDERIS
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run application:
-
-```bash
-python app/gui.py
-```
+* **Data Antropometri:**
+  * Berat Badan menurut Umur (BB/U)
+  * Tinggi/Panjang Badan menurut Umur (TB/U)
+  * Berat Badan menurut Tinggi Badan (BB/TB)
+  * Lingkar Kepala menurut Umur (LK/U)
+* **Kuesioner Frekuensi Makanan (FFQ):**
+  * Frekuensi asupan karbohidrat, protein hewani/nabati, sayur, buah, dan makanan selingan.
+* **Faktor Risiko Tambahan:**
+  * Riwayat ASI eksklusif, kelengkapan imunisasi, dan berat lahir.
 
 ---
 
